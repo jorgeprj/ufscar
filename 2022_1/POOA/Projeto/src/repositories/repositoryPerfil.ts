@@ -1,4 +1,4 @@
-import { Perfil } from '../classes/perfil'
+import { Perfil } from '../../Projeto/src/classes/perfil'
 
 export class repositoryPerfil {
     private connection = { execute(query: string) {} };

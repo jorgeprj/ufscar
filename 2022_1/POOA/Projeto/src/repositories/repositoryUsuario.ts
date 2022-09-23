@@ -1,4 +1,4 @@
-import { Usuario } from '../classes/usuario'
+import { Usuario } from '../../Projeto/src/classes/usuario'
 
 export class repositoryUsuario {
     private connection = { execute(query: string) {} };

@@ -12,7 +12,7 @@
 // genérico da forma como pensado pelo aluno para fazer o cálculo da altura do morro.   
 
 
-Algoritmo "Desafio Ciclo 1"
+Algoritmo "Desafio Proposto 1"
 
 // Seção de Declarações das variáveis 
 Var

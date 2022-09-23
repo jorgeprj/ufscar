@@ -13,7 +13,7 @@
 // pensado pela aluna para fazer o cálculo da altura atingida pelo avião.   
 
 
-Algoritmo "Desafio Ciclo 2"
+Algoritmo "Desafio Proposto 2"
 
 // Seção de Declarações das variáveis 
 Var

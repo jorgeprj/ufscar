@@ -21,8 +21,9 @@ int main()
      scanf("\n%f",&m2);
      scanf("\n%f",&m3);
      if ((m1<(m2+m3))&&(m2<(m1+m3))&&(m3<(m1+m2)))
-     printf("YES");
+          printf("YES");
      else
-     printf("NO");
+          printf("NO");
+          
      return 0;
 }

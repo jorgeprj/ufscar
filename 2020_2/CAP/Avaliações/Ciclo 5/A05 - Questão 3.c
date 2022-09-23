@@ -31,17 +31,17 @@ int main()
      scanf("\n%f",&a2);
      scanf("\n%f",&a3);
      if (a1+a2+a3!=180){
-     printf("ERRO");
+          printf("ERRO");
      }
      else 
-      if ((a1==90)||(a2==90)||(a3==90)){
-      printf("RETANGULO");
-      }
-      else 
-       if ((a1>90)||(a2>90)||(a3>90)){
-       printf("OBTUSANGULO");
-       }
-       else 
-        printf("ACUTANGULO");
+          if ((a1==90)||(a2==90)||(a3==90)){
+               printf("RETANGULO");
+          }
+          else 
+               if ((a1>90)||(a2>90)||(a3>90)){
+                    printf("OBTUSANGULO");
+               }
+               else 
+                    printf("ACUTANGULO");
      return 0;
 }

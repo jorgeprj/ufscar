@@ -49,5 +49,6 @@ int main(){
      y=d*sin(t1);
      printf("%5.2f",x);
      printf("\n%5.2f",y);
+     
      return 0;
 }

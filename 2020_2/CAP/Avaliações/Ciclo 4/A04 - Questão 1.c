@@ -55,5 +55,6 @@ int main(){
      rad=atan(a);
      t=(rad*180)/(3.141592);
      printf("\n%5.2f",t);
+
      return 0;
 }

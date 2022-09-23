@@ -40,8 +40,8 @@ Exemplo:
 
 double x,t1,y;
 float d,t;
-int main()
-{
+
+int main(){
      scanf("\n%f",&d);
      scanf("\n%f",&t);
      t1=t*3.141592/180;
@@ -50,5 +50,4 @@ int main()
      printf("%5.2f",x);
      printf("\n%5.2f",y);
      return 0;
-
 }

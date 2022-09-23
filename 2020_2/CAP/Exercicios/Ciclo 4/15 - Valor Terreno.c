@@ -15,9 +15,8 @@ terrenos daquela região e informe ao cliente o valor a ser pago pelo terreno.
 #include <stdio.h>
 
 float tamanho,valor,valor_terreno;
-int main()
 
-{
+int main(){
 
      printf("Digite o tamanho(em m²)do terreno:");
      scanf("%f",&tamanho);
@@ -26,5 +25,5 @@ int main()
      valor_terreno=(tamanho * valor);
      printf("O preço a ser pago é %9.2f reais",valor_terreno);
 
-
+     return 0;
 }  

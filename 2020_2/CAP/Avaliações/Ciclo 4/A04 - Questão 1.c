@@ -43,9 +43,8 @@ Exemplo:
 float x,p1,y,p2,d;
 double t,rad;
 double a;
-int main()
 
-{
+int main(){
      scanf("\n%f",&x);
      scanf("\n%f",&y);
      p1=pow(x,2);
@@ -57,3 +56,4 @@ int main()
      t=(rad*180)/(3.141592);
      printf("\n%5.2f",t);
      return 0;
+}

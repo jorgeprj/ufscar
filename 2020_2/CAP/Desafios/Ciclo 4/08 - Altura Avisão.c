@@ -18,9 +18,8 @@ informado o ângulo de decolagem. Seu desafio é transformar o algoritmo em um p
 
 float metros,decolagem,altura;
 float x;
-int main()
 
-{
+int main(){
 
      printf("Digite a quantidade de metros sobrevoada:");
      scanf("%f",&metros);
@@ -29,4 +28,6 @@ int main()
      x=sin(decolagem);
      altura=(x * metros);
      printf("O avião atingiu %5.2f metros",altura);
+
+     return 0;
 }  

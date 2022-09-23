@@ -10,9 +10,8 @@ colocar no tanque.
 #include <stdio.h>
 
 float gasolina,litros,valor;
-int main()
 
-{
+int main(){
 
      printf("Digite o preço da gasolina:");
      scanf("%f",&gasolina);
@@ -21,4 +20,5 @@ int main()
      litros=(valor / gasolina);
      printf("Podem ser colocados %4.2f litros de gasolina",litros);
 
-}  
+     return 0;
+} 

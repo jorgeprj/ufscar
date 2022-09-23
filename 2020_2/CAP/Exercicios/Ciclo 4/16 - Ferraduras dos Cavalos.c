@@ -9,9 +9,8 @@ as ferraduras dos cavalos de um haras.
 #include <stdio.h>
 
 int cavalos,estoque,ferraduras,compra;
-int main()
 
-{
+int main(){
 
      printf("Digite a quantidade de cavalos:");
      scanf("%d",&cavalos);
@@ -21,4 +20,5 @@ int main()
      compra=(ferraduras - estoque);
      printf("É necessario comprar %d ferraduras",compra);
 
+     return 0;
 }  

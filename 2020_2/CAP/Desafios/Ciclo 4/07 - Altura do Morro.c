@@ -19,9 +19,8 @@ que o aluno fez em um programa C.
 
 float altura,caminhada,angulo_inicial,angulo_final,tan1,tan2,tan3;
 float x;
-int main()
 
-{
+int main(){
 
      printf("Digite o angulo incial(em graus):");
      scanf("%f",&angulo_inicial);
@@ -35,4 +34,6 @@ int main()
      x=(caminhada / tan3);
      altura=(x + caminhada);
      printf("A altura do morro é aproximadamente %5.2f metros",altura);
+
+     return 0;
 }  

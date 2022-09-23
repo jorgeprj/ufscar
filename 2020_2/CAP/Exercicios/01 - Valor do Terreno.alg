@@ -9,19 +9,19 @@
 // dos terrenos daquela região e informe ao cliente o valor a ser pago pelo terreno.
 
 
-Algoritmo "Exercicio_Proposto_01"
+Algoritmo "Exercicio Proposto 01"
 
+// Seção de Declarações das variáveis
 Var
-// Seção de Declarações das variáveis 
-tamanho,valor,valor_terreno:real
+    tamanho,valor,valor_terreno:real
 
+// Seção de Comandos, procedimento, funções, operadores, etc...
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva("Digite o tamanho(em m²)do terreno:")
-leia(tamanho)
-escreva("Digite o preço por m² do terreno da região:")
-leia(valor)
+    escreva("Digite o tamanho(em m²)do terreno:")
+    leia(tamanho)
+    escreva("Digite o preço por m² do terreno da região:")
+    leia(valor)
 // Cálculo do valor a ser pago pelo cliente
-valor_terreno<-tamanho*valor
-escreval("O valor a ser pago é R$",valor_terreno)
+    valor_terreno<-tamanho*valor
+    escreval("O valor a ser pago é R$",valor_terreno)
 Fimalgoritmo

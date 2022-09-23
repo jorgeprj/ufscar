@@ -4,21 +4,21 @@
 // e imprimir a sua média aritmética.
 
 
-Algoritmo "Exercicio_Proposto_04"
+Algoritmo "Exercicio Proposto 04"
 
-Var
 // Seção de Declarações das variáveis 
+Var
 nota1,nota2,nota3,media:real
 
+// Seção de Comandos, procedimento, funções, operadores, etc...
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva("Digite a nota 1:")
-leia(nota1)
-escreva("Digite a nota 2:")
-leia(nota2)
-escreva("Digite a nota 3:")
-leia(nota3)
+    escreva("Digite a nota 1:")
+    leia(nota1)
+    escreva("Digite a nota 2:")
+    leia(nota2)
+    escreva("Digite a nota 3:")
+    leia(nota3)
 //Cálculo da média
-media<-(nota1+nota2+nota3)/3)
-escreva("A média Aritimética é:",media)
+    media<-(nota1+nota2+nota3)/3)
+    escreva("A média Aritimética é:",media)
 Fimalgoritmo

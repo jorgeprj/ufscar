@@ -5,20 +5,20 @@
 // litros ele conseguiu colocar no tanque.   
 
 
-Algoritmo "Exercicio_Proposto_03"
+Algoritmo "Exercicio Proposto 03"
 
-Var
 // Seção de Declarações das variáveis 
-gasolina,valor,litros:real
+Var
+    gasolina,valor,litros:real
 
-Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva("Digite o preço da gasolina:")
-leia(gasolina)
-escreva("Digite o valor do pagamento:")
-leia(valor)
+Inicio 
+    escreva("Digite o preço da gasolina:")
+    leia(gasolina)
+    escreva("Digite o valor do pagamento:")
+    leia(valor)
 // Cálculo dos litros de gasolina comprados
-litros<-valor/gasolina
-escreva("Foram colocados ",litros)
-escreva(" de gasolina no tanque")
+    litros<-valor/gasolina
+    escreva("Foram colocados ",litros)
+    escreva(" de gasolina no tanque")
 Fimalgoritmo

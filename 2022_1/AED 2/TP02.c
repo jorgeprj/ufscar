@@ -3,7 +3,7 @@
 /*
   Data que foi realizado: 27/08/2022
   Algoritmos e Estrtura de Dados 2
-    Primeiro Trabalho Prático - Competição Literária
+    Segundo Trabalho Prático - Genética
       Nome: Jorge Luiz Medeiros Pires
       RA: 790942
 */

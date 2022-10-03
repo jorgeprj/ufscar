@@ -33,7 +33,7 @@ The division of all the content was done in cycles, each cycle had a test, chall
 
     [Exercises](Exercises/Cycle%203/) | [Challenges](Challenges/Cycle%203/) | [Tests](Tests/Cycle%203/)
 
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 ### C Programming and Pointers
 * Cycle 4
@@ -52,7 +52,7 @@ The division of all the content was done in cycles, each cycle had a test, chall
 
     [Tests](Tests/Cycle%206/) 
 
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 ### Modules
 * Cycle 7
@@ -62,7 +62,7 @@ The division of all the content was done in cycles, each cycle had a test, chall
 
     More about functions, recursive functions and procedures
 
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 ### Data Structures
 * Cycle 9
@@ -78,7 +78,7 @@ The division of all the content was done in cycles, each cycle had a test, chall
 
     Array od Structures
 
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 ### Memory Allocation
 * Cycle 13
@@ -86,7 +86,7 @@ The division of all the content was done in cycles, each cycle had a test, chall
     Dynamic Allocation: *malloc* and *calloc*
 
 
-<p align="right">(<a href="##Contents">back to top</a>)</p>
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
   ##
 

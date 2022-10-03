@@ -60,12 +60,22 @@ The division of all the content was done in cycles, each cycle had a test, chall
 
 ### Data Structures
 * Cycle 9
+
+    *Struct*
 * Cycle 10
+
+    *Array*
 * Cycle 11
+
+    *Matrix*
 * Cycle 12
 
+    Array od Structures
+
 ### Memory Allocation
-* Cycle 12
+* Cycle 13
+
+    Dynamic Allocation: *malloc* and *calloc*
 
   ##
 

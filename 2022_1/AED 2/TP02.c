@@ -3,7 +3,7 @@
 /*
   Data que foi realizado: 27/08/2022
   Algoritmos e Estrtura de Dados 2
-    Segundo Trabalho Prático - Genética
+    Segundo Trabalho Prático - Distância Genômica
       Nome: Jorge Luiz Medeiros Pires
       RA: 790942
 */

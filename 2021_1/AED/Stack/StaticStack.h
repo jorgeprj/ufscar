@@ -4,9 +4,9 @@ using namespace std;
 
 typedef int dat;
 
-class PilhaEstatica{
+class StaticStack{
     public:
-    PilhaEstatica();
+    StaticStack();
         bool full();
         bool empty();
         void push(dat x, bool &work);
@@ -16,19 +16,19 @@ class PilhaEstatica{
     dat entry[TAM];
 };
 
-    PilhaEstatica::PilhaEstatica(){
+    StaticStack::StaticStack(){
         top=-1;
     }
 
-    bool PilhaEstatica::full(){
+    bool StaticStack::full(){
         return (top==(TAM-1));
     }
 
-    bool PilhaEstatica::empty(){
+    bool StaticStack::empty(){
         return (top==-1);
     }
 
-    void PilhaEstatica::push(dat x, bool &work){
+    void StaticStack::push(dat x, bool &work){
         if(full())
             work=false;
         else{
@@ -38,7 +38,7 @@ class PilhaEstatica{
         }
     }
 
-    void PilhaEstatica::pop(dat &x, bool &work){
+    void StaticStack::pop(dat &x, bool &work){
         if(empty())
             work=false;
         else{

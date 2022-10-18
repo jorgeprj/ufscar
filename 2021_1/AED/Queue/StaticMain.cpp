@@ -1,17 +1,17 @@
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
-#include "FilaEstatica.h"
+#include "StaticQueue.h"
 
 using namespace std;
 
-void size(FilaEstatica q, dat &x){
+void getSize(StaticQueue q, dat &x){
     bool ok;
     dat value;
-    FilaEstatica aux;
+    StaticQueue aux;
     int contador=0;
     if(q.isEmpty()){
-        cout<<"A pilha está vazia!"<<endl;
+        cout<<"The stack is empty!"<<endl;
         abort();
     }
     while(!q.isEmpty()){
@@ -26,13 +26,13 @@ void size(FilaEstatica q, dat &x){
     x=contador;
 }
 
-void getFront(FilaEstatica q, dat &x){
+void getFront(StaticQueue q, dat &x){
     bool ok;
     dat value;
-    FilaEstatica aux;
+    StaticQueue aux;
     int contador=0;
     if(q.isEmpty()){
-        cout<<"A pilha esta vazia!"<<endl;
+        cout<<"The stack is empty!"<<endl;
         abort();
     }
     q.serve(x,ok);
@@ -49,7 +49,7 @@ void getFront(FilaEstatica q, dat &x){
 
 
 int main(){
-    FilaEstatica queue;
+    StaticQueue queue;
     bool ok;
     int value;
     dat front;
@@ -71,8 +71,8 @@ int main(){
     queue.serve(value,ok);
     cout<<ok<<endl;
     cout<<value<<endl;
-    size(queue,value);
-    cout<<"Tamanho:"<<value<<endl;
+    getSize(queue,value);
+    cout<<"Size:"<<value<<endl;
     getFront(queue,value);
     cout<<"Front:"<<value<<endl;
     queue.append(66, ok);

@@ -3,9 +3,9 @@ using namespace std;
  
 typedef int dat;
  
-class FilaDinamica{
+class DynamicQueue{
     public:
-    FilaDinamica();
+    DynamicQueue();
         bool isFull();
         bool isEmpty();
         void append(dat x, bool &work);
@@ -21,20 +21,20 @@ class FilaDinamica{
     QueuePointer rear;
 };
 
-    FilaDinamica::FilaDinamica(){
+    DynamicQueue::DynamicQueue(){
         front=NULL;
         rear=NULL;
     }
     
-    bool FilaDinamica::isFull(){
+    bool DynamicQueue::isFull(){
         return false; 
     }
     
-    bool FilaDinamica::isEmpty(){
+    bool DynamicQueue::isEmpty(){
         return front==NULL;
     }
     
-    void FilaDinamica::append(dat x, bool &work){
+    void DynamicQueue::append(dat x, bool &work){
         QueuePointer q;
         q=new QueueNode;
         if(q==NULL){ 
@@ -55,7 +55,7 @@ class FilaDinamica{
         q->nextNode=NULL; 
     }
     
-    void FilaDinamica::serve(dat &x, bool &work){
+    void DynamicQueue::serve(dat &x, bool &work){
         QueuePointer aux;
         
         if(isEmpty()){

@@ -16,10 +16,10 @@ Repository created to store all code projects and works created during graduatio
 
 ## 2021_2
 
-* [Artifical Intelligence (IA)](2021_2/IA/)
+* [Artificial Intelligence (IA)](2021_2/IA/)
 * [Algorithm Design and Analysis (PAA)](2021_2/PAA/)
+* [Object-Oriented Programming (POO)](2021_2/POO/)
 * *Database (BD)*
-* *Object-Oriented Programming (POO)*
 <p align="right">(<a href="#UFSCar">back to top</a>)</p>
 
 ## 2022_1

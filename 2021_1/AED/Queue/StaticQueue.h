@@ -4,9 +4,9 @@ using namespace std;
 
 typedef int dat;
 
-class FilaEstatica{
+class StaticQueue{
     public:
-    FilaEstatica();
+    StaticQueue();
         bool isFull();
         bool isEmpty();
         void append(dat x, bool &work);
@@ -19,21 +19,21 @@ class FilaEstatica{
         dat entry[TAM];
 };
 
-    FilaEstatica::FilaEstatica(){
+    StaticQueue::StaticQueue(){
         count=0;
         front=-1;
         rear=-1;
     }
 
-    bool FilaEstatica::isFull(){
+    bool StaticQueue::isFull(){
         return(count==(TAM));
     }
 
-    bool FilaEstatica::isEmpty(){
+    bool StaticQueue::isEmpty(){
         return(count==0);
     }
 
-    void FilaEstatica::append(dat x, bool &work){
+    void StaticQueue::append(dat x, bool &work){
         if(isFull())
             work=false;
         else{
@@ -47,7 +47,7 @@ class FilaEstatica{
         }
     }
 
-    void FilaEstatica::serve(dat &x, bool &work){
+    void StaticQueue::serve(dat &x, bool &work){
         if(isEmpty())
             work=false;
         else{

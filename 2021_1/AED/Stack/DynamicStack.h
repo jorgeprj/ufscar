@@ -2,9 +2,9 @@
 using namespace std;
 typedef int dat;
 
-class PilhaDinamica{
+class DynamicStack{
     public:
-        PilhaDinamica();
+        DynamicStack();
         bool isFull();
         bool isEmpty();
         void push(dat x, bool &work);
@@ -20,19 +20,19 @@ class PilhaDinamica{
 };
 
 
-PilhaDinamica::PilhaDinamica(){
+DynamicStack::DynamicStack(){
     top=NULL;
 }
 
-bool PilhaDinamica::isFull(){
+bool DynamicStack::isFull(){
     return false;
 }
 
-bool PilhaDinamica::isEmpty(){
+bool DynamicStack::isEmpty(){
     return top==NULL;
 }
 
-void PilhaDinamica::push(dat x, bool &work){
+void DynamicStack::push(dat x, bool &work){
     StackPointer p;
     p=new StackNode;
     
@@ -45,7 +45,7 @@ void PilhaDinamica::push(dat x, bool &work){
     top=p;
 }
 
-void PilhaDinamica::pop(dat &x, bool &work){
+void DynamicStack::pop(dat &x, bool &work){
     StackPointer aux;
     if(isEmpty()){
         work=false;

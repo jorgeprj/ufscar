@@ -6,8 +6,6 @@
       RA: 790942
 """
 
-
-
 def minDiffernce(arr, n):
     total_sum = sum(arr)
     memo = [[False for j in range((total_sum // 2) + 1)] for i in range(n + 1)]

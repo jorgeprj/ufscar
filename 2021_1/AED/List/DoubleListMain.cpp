@@ -1,16 +1,16 @@
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
-#include "ListaDinamicaDupla.h"
+#include "DoubleList.h"
 using namespace std;
  
-void display(ListaDupla &l){
+void display(DoubleList &l){
     dat x;
     bool ok=1, check;
-    cout<<"Mostrando a lista..."<<endl;
+    cout<<"Showing the list..."<<endl;
     
     if(l.isEmpty()){
-        cout<<"A lista esta vazia"<<endl;
+        cout<<"The list is empty!"<<endl;
     }
     else{
         while(ok==1){
@@ -27,21 +27,21 @@ void display(ListaDupla &l){
     cout<<endl;
 }
  
-void size(ListaDupla l, int &x){
+void size(DoubleList l, int &x){
     bool ok=1, check;
-    ListaDupla aux;
-    int contador=0;
-    cout<<"Calculando o tamamnho da lista..."<<endl;
+    DoubleList aux;
+    int count=0;
+    cout<<"Calculating list size..."<<endl;
     
     if(l.isEmpty()){
-        cout<<"A lista esta vazia!"<<endl;
+        cout<<"The list is empty!"<<endl;
         abort();
     }
     else{
         while(ok==1){
             l.getNext(x,check);
             if(x!=0){
-                contador++;
+                count++;
             }
             if(check==0){
                 ok=0;
@@ -49,21 +49,21 @@ void size(ListaDupla l, int &x){
         }
     }
     
-    x=contador;
+    x=count;
 }
 
-void copy(ListaDupla l, ListaDupla &l2){
+void copy(DoubleList l, DoubleList &l2){
     bool ok=1, check;
     dat value;
     
     if(!l2.isEmpty()){
-        cout<<"A lista destino nao esta vazia!"<<endl;
+        cout<<"Destination list is not empty!"<<endl;
         abort();
     }
-    cout<<"Copiando a lista..."<<endl;
+    cout<<"Copying the list..."<<endl;
     
     if(l.isEmpty()){
-        cout<<"A lista esta vazia!"<<endl;
+        cout<<"The list is empty!"<<endl;
         abort();
     }
     else{
@@ -82,7 +82,7 @@ void copy(ListaDupla l, ListaDupla &l2){
 }
  
 int main(){
-    ListaDupla list, list2;
+    DoubleList list, list2;
     bool ok,check;
     int value;
     dat top;
@@ -93,23 +93,23 @@ int main(){
     list.remove(22,ok);
     
     if(list.isInserted(11)){
-        cout<<"11 esta inserido na lista"<<endl;
+        cout<<"11 is included in the list"<<endl;
     }
     else{
-        cout<<"11 nao esta inserido na lista"<<endl;
+        cout<<"11 isn't included in the list"<<endl;
     }
         if(list.isInserted(22)){
-        cout<<"22 esta inserido na lista"<<endl;
+        cout<<"22 is included in the list"<<endl;
     }
     else{
-        cout<<"22 nao esta inserido na lista"<<endl;
+        cout<<"22 isn't included in the list"<<endl;
     }
     
     list.insert(44,ok);
     list.insert(55,ok);
     list.insert(66,ok);
     size(list,value);
-    cout<<"O tamanho da lista eh: "<<value<<endl;
+    cout<<"The list size is: "<<value<<endl;
     copy(list,list2);
     display(list);
     display(list2);

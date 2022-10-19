@@ -3,9 +3,9 @@ using namespace std;
  
 typedef int dat;
  
-class ListaDupla{
+class DoubleList{
     public:
-    ListaDupla();
+    DoubleList();
         bool isFull();
         bool isEmpty();
         bool isInserted(dat x);
@@ -25,21 +25,21 @@ class ListaDupla{
         int count;
 };
     
-    ListaDupla::ListaDupla(){
+    DoubleList::DoubleList(){
         sentinel = new ListNode;
         head = sentinel;
         count=0;
     }
     
-    bool ListaDupla::isFull(){
+    bool DoubleList::isFull(){
         return false;
     }
     
-    bool ListaDupla::isEmpty(){
+    bool DoubleList::isEmpty(){
         return(head==sentinel);
     }
     
-    bool ListaDupla::isInserted(dat x){
+    bool DoubleList::isInserted(dat x){
         ListPointer q;
         q=head;
  
@@ -54,11 +54,11 @@ class ListaDupla{
             return true;
     }
     
-    void ListaDupla::insert(dat x, bool &work){
+    void DoubleList::insert(dat x, bool &work){
         ListPointer p, q, back; 
  
         if(isInserted(x)){
-            cout<<"O elemento ja esta inserido."<<endl;
+            cout<<"The element is already inserted."<<endl;
             work=false;
             abort();
         }
@@ -73,7 +73,7 @@ class ListaDupla{
  
         q=new ListNode;
         if(q==NULL){
-            cout<<"Memoria insuficiente"<<endl;
+            cout<<"Insufficient memory!"<<endl;
             work=false;
             abort();
         }
@@ -93,16 +93,16 @@ class ListaDupla{
         }
         count++;
         work=true;
-        cout<<x<<" foi inserido!"<<endl;
+        cout<<x<<" has been inserted!"<<endl;
     }
     
-    void ListaDupla::remove(dat x, bool &work){
+    void DoubleList::remove(dat x, bool &work){
         ListPointer p, q, aux;
         p=NULL;
         q=head;
         
         if(isEmpty()){
-            cout<<"A lista esta vazia"<<endl;
+            cout<<"The list is empty!"<<endl;
             work=false;
             abort();
         }
@@ -130,28 +130,28 @@ class ListaDupla{
         
         delete q;
         count--;
-        cout<<x<<" foi removido!"<<endl;
+        cout<<x<<" has been removed!"<<endl;
     }
         
-    void ListaDupla::getHead(dat &x, bool &check){
+    void DoubleList::getHead(dat &x, bool &check){
         ListPointer q;
         q=head;
  
         if(isEmpty()){
-            cout<<"A lista esta vazia"<<endl;
+            cout<<"The list is empty!"<<endl;
             check=false;
         }
         x=q->entry;
         check=true;
     }
     
-    void ListaDupla::getNext(dat &x, bool &check){
+    void DoubleList::getNext(dat &x, bool &check){
         ListPointer q, p;
         q=head;
         
         if(isEmpty()){
             check=false;
-            cout<<"A lista esta vazia"<<endl;
+            cout<<"The list is empty!"<<endl;
         }
  
         if(check==false){

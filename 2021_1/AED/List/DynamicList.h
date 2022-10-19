@@ -3,9 +3,9 @@ using namespace std;
  
 typedef int dat;
  
-class ListaDinamica{
+class DynamicList{
     public:
-    ListaDinamica();
+    DynamicList();
         bool isFull();
         bool isEmpty();
         bool isInserted(dat x);
@@ -24,21 +24,21 @@ class ListaDinamica{
         int count;
     };
  
-    ListaDinamica::ListaDinamica(){
+    DynamicList::DynamicList(){
         sentinel = new ListNode;
         head = sentinel;
         count=0;
     }
     
-    bool ListaDinamica::isFull(){
+    bool DynamicList::isFull(){
         return false;
     }
     
-    bool ListaDinamica::isEmpty(){
+    bool DynamicList::isEmpty(){
         return(head==sentinel);
     }
     
-    bool ListaDinamica::isInserted(dat x){
+    bool DynamicList::isInserted(dat x){
         ListPointer q;
         q=head;
  
@@ -54,11 +54,11 @@ class ListaDinamica{
  
     }
     
-    void ListaDinamica::insert(dat x, bool &work){
+    void DynamicList::insert(dat x, bool &work){
         ListPointer p, q; 
  
         if(isInserted(x)){
-            cout<<"O elemento ja esta inserido."<<endl;
+            cout<<"The element is already inserted."<<endl;
             work=false;
             abort();
         }
@@ -70,7 +70,7 @@ class ListaDinamica{
         q=new ListNode;
         
         if(q==NULL){
-            cout<<"Memoria insuficiente"<<endl;
+            cout<<"Insufficient memory!"<<endl;
             work=false;
             abort();
         }
@@ -87,15 +87,15 @@ class ListaDinamica{
         
         count++;
         work=true;
-        cout<<x<<" foi inserido!"<<endl;
+        cout<<x<<" has been inserted!"<<endl;
     }
     
-    void ListaDinamica::remove(dat x, bool &work){
+    void DynamicList::remove(dat x, bool &work){
         ListPointer p, q;
         p=NULL;
         q=head;
         if(isEmpty()){
-            cout<<"A lista esta vazia"<<endl;
+            cout<<"The list is empty!"<<endl;
             work=false;
             abort();
         }
@@ -119,15 +119,15 @@ class ListaDinamica{
         
         delete q;
         count--;
-        cout<<x<<" foi removido!"<<endl;
+        cout<<x<<" has been removed!"<<endl;
     }
     
-    void ListaDinamica::getHead(dat &x, bool &check){
+    void DynamicList::getHead(dat &x, bool &check){
         ListPointer q;
         q=head;
  
         if(isEmpty()){
-            cout<<"A lista esta vazia"<<endl;
+            cout<<"The list is empty!"<<endl;
             check=false;
         }
         
@@ -135,13 +135,13 @@ class ListaDinamica{
         check=true;
     }
     
-    void ListaDinamica::getNext(dat &x, bool &check){
+    void DynamicList::getNext(dat &x, bool &check){
         ListPointer q, p;
         q=head;
         
         if(isEmpty()){
             check=false;
-            cout<<"A lista esta vazia"<<endl;
+            cout<<"The list is empty!"<<endl;
         }
  
         if(check==false){

@@ -45,14 +45,32 @@ For the implementation, two approaches were used:
 
 ### List
 
+For the implementation, two approaches were used: 
+
+* **Dynamic List**: Linked list from nodes
+  
+    [Class](/2021_1/AED/List/DynamicList.h) | [Main](/2021_1/AED/List/DynamicListMain.cpp)
+
+* **Double Dynamic List**: inked list from double nodes
+
+   [Class](/2021_1/AED/List/DoubleList.h) | [Main](/2021_1/AED/List/DoubleListMain.cpp)
+
 
 ### Sort
 There are several types of sorting algorithms, including: *Insertion Sort*, *Bubble Sort*, *Quick Sort* and *Selection Sort*. Only the last one was implemented.
 
-* [Selection Sort](/2021_1/AED/Sort/SelectionSort.cpp)
+* [Algorithm](/2021_1/AED/Sort/SelectionSort.cpp)
 
 ### Search
+There are many types of searching algorithms. For the implementation, two simple approaches were used: 
 
+* **Linear Search**: In linear (sequential) search, we start from the front (beginning) of the vector (or list) of elements and compare each of the elements with the desired element until we find a match (the element is present) or we reach the end of the list (the element is not present).
+  
+    [Algorithm](/2021_1/AED/Search/LinearSearch.cpp)
+
+* **Binary Search**: In binary search, we start with a guess as to where the sought-after element might be. Our guess is always to choose the middle element of the array. If this guess is correct, the search ends as we have found the element we are looking for. If the guess is wrong, we can restrict our next guess to a specific part of the array, given that it is sorted.
+
+   [Algorithm](/2021_1/AED/Search/BinarySearch.cpp) 
 
 
   ##

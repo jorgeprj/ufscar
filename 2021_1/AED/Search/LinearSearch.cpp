@@ -11,5 +11,5 @@ int linearSearch(int vector[], int size, int value, int &count){
         }
     }
     
-    return -1; // nnot found
+    return -1; // not found
 }

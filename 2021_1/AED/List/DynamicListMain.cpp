@@ -1,10 +1,10 @@
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
-#include "ListaDinamica.h"
+#include "DynamicList.h"
 using namespace std;
  
-void clear(ListaDinamica &l){
+void clear(DynamicList &l){
     dat x;
     bool ok, check;
     cout<<"Limpando a lista..."<<endl;
@@ -17,7 +17,7 @@ void clear(ListaDinamica &l){
     cout<<"A lista foi limpa"<<endl;
 }
 
-void display(ListaDinamica &l){
+void display(DynamicList &l){
     dat x;
     bool ok=1, check;
     cout<<"Mostrando a lista..."<<endl;
@@ -40,7 +40,7 @@ void display(ListaDinamica &l){
 }
  
 int main(){
-    ListaDinamica list;
+    DynamicList list;
     bool ok,check;
     int value;
     dat top;

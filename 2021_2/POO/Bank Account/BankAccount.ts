@@ -12,43 +12,43 @@ class BankAccount{
         this.status = false;
     }
 
-    public getAccountNumber(): number{
+    private getAccountNumber(): number{
         return this.accountNumber;
     }
 
-    public setAccountNumber(accountNumber: number): void{
+    private setAccountNumber(accountNumber: number): void{
         this.accountNumber = accountNumber;
     }
 
-    public getType(): string{
+    private getType(): string{
         return this.type;
     }
 
-    public setType(type: string): void{
+    private setType(type: string): void{
         this.type = type;
     }
 
-    public getOwnerName(): string{
+    private getOwnerName(): string{
         return this.ownerName;
     }
 
-    public setOwnerName(name: string): void{
+    private setOwnerName(name: string): void{
         this.ownerName = name;
     }
 
-    public getBalance(): number{
+    private getBalance(): number{
         return this.balance;
     }
 
-    public setBalance(balance: number): void{
+    private setBalance(balance: number): void{
         this.balance = balance;
     }
 
-    public getStatus(): boolean{
+    private getStatus(): boolean{
         return this.status;
     }
 
-    public setStatus(status: boolean): void{
+    private setStatus(status: boolean): void{
         this.status = status;
     }
 
@@ -126,11 +126,9 @@ class BankAccount{
 const a1 = new BankAccount(12345, "Jorge");
 a1.deposit(50);
 a1.openAccount("Checking")
-console.log(a1.getBalance())
 a1.withdraw(121)
 a1.withdraw(10)
 a1.payMonthlyFee()
-console.log(a1.getBalance())
 a1.closeAccount()
 
 a1.getAccount()
@@ -138,12 +136,9 @@ a1.getAccount()
 const a2 = new BankAccount(54654, "Bob");
 a2.withdraw(120);
 a2.openAccount("Savings")
-console.log(a2.getBalance())
 a2.deposit(10)
 a2.withdraw(150)
-console.log(a2.getBalance())
 a2.payMonthlyFee()
-console.log(a2.getBalance())
 a2.closeAccount()
 a2.deposit(10)
 a2.closeAccount()

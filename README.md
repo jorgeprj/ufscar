@@ -25,8 +25,19 @@ Repository created to store all code projects and works created during graduatio
 ## 2022_1
 
 * [Algorithms and Data Structures 2 (AED 2)](2022_1/AED%202/)
-* [Numerical Calculation (NUM)](2022_1/NUM/)
 * [Advanced Object-Oriented Programming (POOA)](2022_1/POOA/)
+<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+
+## 2022_2
+
+* [Paradigms of Programming Languages (PLP)](2022_2/AED%202/)
+<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+
+## 2023_1
+
+* [Web Software Development 1 (DSW1)]()
+* [Numerical Calculation (NUM)](2023_1/NUM/)
+* [Database Implementation Project (PIBD)](2022_1/POOA/)
 <p align="right">(<a href="#UFSCar">back to top</a>)</p>
 
 
@@ -34,10 +45,10 @@ Repository created to store all code projects and works created during graduatio
 
 <div> 
     <a href="https://github.com/jorgeprj" target="_blank">
-        <img src="https://img.shields.io/badge/-Github-000?logo=github&style=for-the-badge&logoColor=white" alt="Bradge Github" />
+        <img src="https://img.shields.io/badge/-Github-000?logo=github&style=for-the-badge&logoColor=white" alt="Badge Github" />
     </a>
     <a href="https://www.linkedin.com/in/jorgeprj" target="_blank">
-        <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&style=for-the-badge&logoColor=white" alt="Bradge LinkedIn" />
+        <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&style=for-the-badge&logoColor=white" alt="Badge LinkedIn" />
     </a>
     <a href="mailto:jorgeprj2020@gmail.com-">
         <img alt="eMail" src="https://img.shields.io/badge/jorgeprj2020@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />

@@ -56,6 +56,7 @@ Getting to know [VisualAlg](https://visualg3.com.br), first concepts and algorit
 
 To view the practical assessment, [click here](Cycle1/Assessment/README.md)
 
+##
 
 ### Cycle 2
     
@@ -112,6 +113,7 @@ Looping structures
 
 To view the practical assessment, [click here](Cycle3/Assessment/README.md)
 
+##
 
 ### Cycle 4
     
@@ -141,6 +143,7 @@ Getting to know [C Language](https://en.wikipedia.org/wiki/C_(programming_langua
 
 To view the practical assessment, [click here](Cycle4/Assessment/README.md)
 
+##
 
 ### Cycle 5
     
@@ -168,6 +171,7 @@ Conditional structures (*IF/Else* and *Swicth-Case*) and logical expressions
 
 To view the practical assessment, [click here](Cycle5/Assessment/README.md)
 
+##
 
 ### Cycle 6
     
@@ -177,6 +181,7 @@ Looping structures (*For* and *While*) and pointers
 
 To view the practical assessment, [click here](Cycle6/Assessment/README.md)
 
+##
 
 ### Cycle 7
     
@@ -201,6 +206,7 @@ Library and functions
 
 - [Activity 12 - Sine Calculation using Taylor Series](Cycle7/Challenges/T12/README.md)
 
+##
 
 ### Cycle 8
     
@@ -221,6 +227,7 @@ More about functions, recursive functions and procedures
 
 - [Activity 14 - Calculation of Quotient and Remainder in Division](Cycle8/Challenges/T14/README.md)
 
+##
 
 ### Cycle 9
     
@@ -239,6 +246,7 @@ Struct
 
 - [Activity 16 - Calculation of the Equation of a Line](Cycle9/Challenges/T16/README.md)
 
+##
 
 ### Cycle 10
 
@@ -264,6 +272,8 @@ Array
 **Assessment**
 
 To view the practical assessment, [click here](Cycle10/Assessment/README.md)
+
+##
 
 ### Cycle 11
 

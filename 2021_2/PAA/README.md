@@ -15,8 +15,25 @@ Totally practical material, based on code analysis: execution time, memory space
 ## Contents
 The course was divided into 3 practice works:
 
-### Stack
+### Practical Work  1
 
+Practical work 1 involves the individual development of a program that determines the recursive equivalence of strings. The program receives two strings as input and checks whether they are equivalent according to the given definition. The output should indicate **"YES"** for equivalence or **"NO"** otherwise.
+
+[Practice](/2021_2/PAA/T1/TP01.py) | [README](/2021_2/PAA/T1/README.md) 
+
+
+### Practical Work  2
+
+In the second practical work, students are challenged to develop a program in *C*, *C++*, *Java* or *Python3* that maximizes discounts in a Black Friday promotion. The store offers to buy 3 products for the price of 2, taking the cheapest one for free, and the task is to create an algorithm that determines the biggest discount possible. The program should read the number of items and their prices, calculate the ideal discount, and the output should indicate the total amount saved.
+
+[Practice](/2021_2/PAA/T2/TP02.py) | [README](/2021_2/PAA/T2/README.md) 
+
+
+### Practical Work  3
+
+In the third practical work, the student must create a program in *C*, *C++*, *Java* or *Python3* that solves the problem of dividing gold coins between Henrico and Frederico in order to minimize the difference between the amounts of gold that each one will receive. The program must read the weights of the coins found, find the smallest possible difference and print that value.
+
+[Practice](/2021_2/PAA/T3/TP03.py) | [README](/2021_2/PAA/T3/README.md) 
 
   ##
 

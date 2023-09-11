@@ -72,6 +72,20 @@ There are many types of searching algorithms. For the implementation, two simple
 
    [Algorithm](/2021_1/AED/Search/BinarySearch.cpp) 
 
+## Final Project
+
+The "PokeBattle Card Game" project was an initiative aimed at applying the concepts of data structures such as Stack, List, and Queue in a practical and enjoyable setting. Unfortunately, the project's repository was deleted, making it impossible to view the complete work, including the graphical aspects. However, the primary goal of the project was to enhance programming skills and gain a deep understanding of the involved data structures.
+
+### Objective
+The main objective of this project was to create an interactive Pokémon card game where players had to devise strategies to defeat a powerful adversary known as the "Boss." The focus was not only on the gaming experience itself but also on implementing the mentioned data structures to manage the cards and game events effectively.
+
+### Key Components and Development:
+
+- **Stack:** Pokémon cards were organized into a Stack, representing the players' decks. Players could purchase cards and add new ones to the top of the Stack. Additionally, played cards were stacked to enable the execution of specific effects and abilities.
+
+- **Queue:** The Queue was utilized to control the order of actions in the game. Player turns and Boss actions were managed through a Queue, ensuring fair and sequential gameplay.
+
+   [Algorithm](/2021_1/AED/Project/Source.cpp) 
 
   ##
 

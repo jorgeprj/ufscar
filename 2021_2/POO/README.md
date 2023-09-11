@@ -88,40 +88,6 @@ In this content module, the example given was karate fighting.One example is tha
     
     [Practice](/2021_2/POO/Animal/Dog/dog.ts) 
 
-
-### Final Project (UFC)
-
-**Description** Here's a manual to guide students in creating their object-oriented programming projects in TypeScript:
-
-1. **Project Theme:**
-
-- Each student must choose a unique theme for their project, such as a task management application, a product sales system, or a simple game.
-
-2. **Mandatory Concepts:**
-
-- Each project must use the concepts learned during the semester, such as encapsulation, inheritance, and polymorphism.
-- The project should be based on something that is easy to understand.
-- The project must contain at least 3 different classes, each representing a different object-oriented programming concept.
-
-3. **Documentation:**
-
-- Each project must be documented with an English README, explaining what the project is, how to install and use it, as well as which object-oriented programming concepts were applied in its development.
-- Include a class diagram representing the system's structure, showing the classes and their relationships, as well as their attributes and methods.
-- The README should contain a demonstration of how the system should work, with everyday examples.
-
-4. **Language:**
-
-- The entire project must be developed in English, including the source code and documentation, in order to ensure that the project can be understood and used by a wider audience.
-
-5. **Index.ts:**
-
-- It is necessary to create an index.ts file that demonstrates the project's operation.
-- The index.ts file should import the created classes and use their methods and attributes appropriately.
-
-Make sure to follow all of these guidelines when creating your TypeScript project. Remember that documentation is just as important as code, so give special attention to creating clear and well-organized documentation. Use everyday examples to demonstrate how the system should work and make the project easier to understand and use. Good luck in developing your project!
-
-[README](/2021_2/POO/Final%20Project/README.md) | [Class Diagram](/2021_2/POO/Final%20Project/project.drawio) | [Classes](/2021_2/POO/Final%20Project/src/classes)
-
   ##
 
 <div> 

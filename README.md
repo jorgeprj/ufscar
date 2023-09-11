@@ -7,12 +7,10 @@ Repository created to store all code projects and works created during graduatio
 
 * [Algorithm Construction and Programming (CAP)](2020_2/CAP/)
 * *Probability and Statistics (PROB)*
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
 
 ## 2021_1
 
 * [Algorithms and Data Structures (AED)](2021_1/AED/)
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
 
 ## 2021_2
 
@@ -20,25 +18,24 @@ Repository created to store all code projects and works created during graduatio
 * [Algorithm Design and Analysis (PAA)](2021_2/PAA/)
 * [Object-Oriented Programming (POO)](2021_2/POO/)
 * *Database (BD)*
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+
 
 ## 2022_1
 
 * [Algorithms and Data Structures 2 (AED 2)](2022_1/AED%202/)
 * [Advanced Object-Oriented Programming (POOA)](2022_1/POOA/)
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+
 
 ## 2022_2
 
 * [Paradigms of Programming Languages (PLP)](2022_2/AED%202/)
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
+
 
 ## 2023_1
 
 * [Web Software Development 1 (DSW1)]()
 * [Numerical Calculation (NUM)](2023_1/NUM/)
 * [Database Implementation Project (PIBD)](2022_1/POOA/)
-<p align="right">(<a href="#UFSCar">back to top</a>)</p>
 
 
 ## 

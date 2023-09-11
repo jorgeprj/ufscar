@@ -22,18 +22,20 @@ The division of all the content was done in cycles, each cycle had a test, chall
     Getting to know [VisualAlg](https://visualg3.com.br), first concepts and algorithms
 
     [Exercises](Exercises/Cycle%201/) | [Challenges](Challenges/Cycle%201/) | [Tests](Tests/Cycle%201/)
+
 * Cycle 2
     
     Conditional structures and logical expressions
 
     [Exercises](Exercises/Cycle%202/) | [Challenges](Challenges/Cycle%202/) | [Tests](Tests/Cycle%202/)
+
 * Cycle 3
 
     Looping structures
 
     [Exercises](Exercises/Cycle%203/) | [Challenges](Challenges/Cycle%203/) | [Tests](Tests/Cycle%203/)
 
-<p align="right">(<a href="#contents">back to top</a>)</p>
+
 
 ### C Programming and Pointers
 * Cycle 4
@@ -41,52 +43,61 @@ The division of all the content was done in cycles, each cycle had a test, chall
     Getting to know [C Language](https://en.wikipedia.org/wiki/C_(programming_language)) and first codes
 
     [Exercises](Exercises/Cycle%204/) | [Challenges](Challenges/Cycle%204/) | [Tests](Tests/Cycle%204/)
+
 * Cycle 5
 
     Conditional structures (*IF/Else* and *Swicth-Case*) and logical expressions
 
     [Exercises](Exercises/Cycle%205/) | [Challenges](Challenges/Cycle%205/) | [Tests](Tests/Cycle%205/) 
+
 * Cycle 6
 
     Looping structures (*For* and *While*) and pointers
 
     [Tests](Tests/Cycle%206/) 
 
-<p align="right">(<a href="#contents">back to top</a>)</p>
 
 ### Modules
 * Cycle 7
 
-    Libray and functions
+    Library and functions
+
+    [Exercises](Exercises/Cycle%207/) | [Challenges](Challenges/Cycle%207/)
+
 * Cycle 8
 
     More about functions, recursive functions and procedures
 
-<p align="right">(<a href="#contents">back to top</a>)</p>
+    [Exercises](Exercises/Cycle%208/) | [Challenges](Challenges/Cycle%208/)
+
+
 
 ### Data Structures
 * Cycle 9
 
-    *Struct*
+    Struct
+
+    [Exercises](Exercises/Cycle%209/) | [Challenges](Challenges/Cycle%209/)
+
 * Cycle 10
 
-    *Array*
+    Array
+
+    [Exercises](Exercises/Cycle%210/) | [Tests](Tests/Cycle%2010/)
+
 * Cycle 11
 
-    *Matrix*
-* Cycle 12
+    Matrix
 
-    Array od Structures
+    [Exercises](Exercises/Cycle%211/) | [Tests](Tests/Cycle%2011/)
 
-<p align="right">(<a href="#contents">back to top</a>)</p>
+
 
 ### Memory Allocation
-* Cycle 13
+* Cycle 12
 
     Dynamic Allocation: *malloc* and *calloc*
 
-
-<p align="right">(<a href="#contents">back to top</a>)</p>
 
   ##
 

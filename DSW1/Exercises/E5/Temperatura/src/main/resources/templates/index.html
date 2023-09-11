@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title th:text="#{pageTitle}">Lista Temperaturas</title>
+</head>
+
+<body>
+	<h1 th:text="#{pageTitle}">Lista Temperaturas</h1>
+
+	<form th:action="@{/lista}" method="POST">
+		<span th:text="#{maxValue}">Minimo:</span>
+		<br /><br/>
+		<input type="number" name="minimo" value="-100">
+		<br /> <br />
+
+		<span th:text="#{minValue}">Maximo:</span>
+		<br /><br/>
+		<input type="number" name="maximo" value="100">
+		<br /> <br />
+
+		
+		<span th:text="#{incValue}">Incremento:</span>
+		<br /><br/>
+		<input type="number" name="incremento" value="5">
+		<br /> <br />
+
+		<button type="reset"><span th:text="#{reset}"></span></button>
+		<button type="submit"><span th:text="#{submit}"></span></button>
+	</form>
+
+</body>
+
+</html>

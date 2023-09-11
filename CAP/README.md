@@ -28,7 +28,7 @@ The discipline "Programming Algorithm Construction" is a fundamental introductor
 
 
 ## Contents
-The division of all the content was done in cycles, each cycle had a test, challenges and exercises for practice. The course was divided into 11 topics:
+The division of all the content was done in cycles, each cycle had a test, Activities and exercises for practice. The course was divided into 11 topics:
 
 ### Cycle 1
 
@@ -46,11 +46,11 @@ Getting to know [VisualAlg](https://visualg3.com.br), first concepts and algorit
 
 - [Exercise 05 - Calculation of Weighted Grade Average](Cycle1/Exercises/E5/README.md)
 
-**Challenges**
+**Activities**
 
-- [Activity 1 - Calculation of Hill Height](Cycle1/Challenges/T1/README.md)
+- [Activity 1 - Calculation of Hill Height](Cycle1/Activities/T1/README.md)
 
-- [Activity 2 - Airplane Altitude Calculation](Cycle1/Challenges/T2/README.md)
+- [Activity 2 - Airplane Altitude Calculation](Cycle1/Activities/T2/README.md)
 
 **Assessment**
 
@@ -73,11 +73,11 @@ Conditional structures and logical expressions
 - [Exercise 09 - Displaying Integers in Descending Order](Cycle2/Exercises/E9/README.md)
 
 
-**Challenges**
+**Activities**
 
-- [Activity 3 - Assignment of Concepts Based on Final Grade](Cycle2/Challenges/T3/README.md)
+- [Activity 3 - Assignment of Concepts Based on Final Grade](Cycle2/Activities/T3/README.md)
 
-- [Activity 4 - Triangle Classification](Cycle2/Challenges/T4/README.md)
+- [Activity 4 - Triangle Classification](Cycle2/Activities/T4/README.md)
 
 
 **Assessment**
@@ -102,11 +102,11 @@ Looping structures
 - [Exercise 14 - Displaying the First n Elements of the Fibonacci Sequence](Cycle3/Exercises/E14/README.md)
 
 
-**Challenges**
+**Activities**
 
-- [Activity 5 - Square Root Calculation using the Newton's Method](Cycle3/Challenges/T5/README.md)
+- [Activity 5 - Square Root Calculation using the Newton's Method](Cycle3/Activities/T5/README.md)
 
-- [Activity 6 - Approximate Calculation of Sine using Taylor Series](Cycle3/Challenges/T6/README.md)
+- [Activity 6 - Approximate Calculation of Sine using Taylor Series](Cycle3/Activities/T6/README.md)
 
 
 **Assessment**
@@ -132,11 +132,11 @@ Getting to know [C Language](https://en.wikipedia.org/wiki/C_(programming_langua
 - [Exercise 19 - Calculating the Weighted Average of Three Grades](Cycle4/Exercises/E19/README.md)
 
 
-**Challenges**
+**Activities**
 
-- [Activity 7 - Hill Height Calculation](Cycle4/Challenges/T7/README.md)
+- [Activity 7 - Hill Height Calculation](Cycle4/Activities/T7/README.md)
 
-- [Activity 8 - Calculation of Airplane Altitude](Cycle4/Challenges/T8/README.md)
+- [Activity 8 - Calculation of Airplane Altitude](Cycle4/Activities/T8/README.md)
 
 
 **Assessment**
@@ -160,11 +160,11 @@ Conditional structures (*IF/Else* and *Swicth-Case*) and logical expressions
 - [Exercise 23 - Sorting Three Numbers in Descending Order](Cycle5/Exercises/E23/README.md)
 
 
-**Challenges**
+**Activities**
 
-- [Activity 9 - Triangle Classification](Cycle5/Challenges/T9/README.md)
+- [Activity 9 - Triangle Classification](Cycle5/Activities/T9/README.md)
 
-- [Activity 10 - Triangle Classification](Cycle5/Challenges/T10/README.md)
+- [Activity 10 - Triangle Classification](Cycle5/Activities/T10/README.md)
 
 
 **Assessment**
@@ -200,11 +200,11 @@ Library and functions
 - [Exercise 28 - Finding the Smallest Number](Cycle7/Exercises/E28/README.md)
 
 
-**Challenges**
+**Activities**
 
-- [Activity 11 - Root Calculation using the Newton's Method](Cycle7/Challenges/T11/README.md)
+- [Activity 11 - Root Calculation using the Newton's Method](Cycle7/Activities/T11/README.md)
 
-- [Activity 12 - Sine Calculation using Taylor Series](Cycle7/Challenges/T12/README.md)
+- [Activity 12 - Sine Calculation using Taylor Series](Cycle7/Activities/T12/README.md)
 
 ##
 
@@ -221,11 +221,11 @@ More about functions, recursive functions and procedures
 - [Exercise 31 - Arabic to Roman Numeral Conversion](Cycle8/Exercises/E31/README.md)
 
 
-**Challenges**
+**Activities**
 
-- [Activity 13 - Calculation of Roots of a Quadratic Equation](Cycle8/Challenges/T13/README.md)
+- [Activity 13 - Calculation of Roots of a Quadratic Equation](Cycle8/Activities/T13/README.md)
 
-- [Activity 14 - Calculation of Quotient and Remainder in Division](Cycle8/Challenges/T14/README.md)
+- [Activity 14 - Calculation of Quotient and Remainder in Division](Cycle8/Activities/T14/README.md)
 
 ##
 
@@ -240,11 +240,11 @@ Struct
 - [Exercise 33 - Person Data Structure](Cycle9/Exercises/E33/README.md)
 
 
-**Challenges**
+**Activities**
 
-- [Activity 15 - Calculation of the Midpoint Between Two Points](Cycle9/Challenges/T15/README.md)
+- [Activity 15 - Calculation of the Midpoint Between Two Points](Cycle9/Activities/T15/README.md)
 
-- [Activity 16 - Calculation of the Equation of a Line](Cycle9/Challenges/T16/README.md)
+- [Activity 16 - Calculation of the Equation of a Line](Cycle9/Activities/T16/README.md)
 
 ##
 

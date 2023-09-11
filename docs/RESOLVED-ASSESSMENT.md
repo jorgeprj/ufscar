@@ -86,4 +86,4 @@ Output
 
 ## Link to the Assessment
 
-To see the solution to this problem implemented in ***Language***, [click here](link).
+To see the full assessment, [click here](link).
